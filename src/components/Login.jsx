@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { FaCheck, FaLinkedin } from "react-icons/fa";
 
 const Login = () => {
   return (
@@ -42,6 +42,27 @@ const Login = () => {
           />
           <FaCheck className='absolute w-3 h-3 text-white hidden peer-checked:block ml-1 ' />
           <span>I accept the terms and conditions.</span>
+        </div>
+        <button className="rounded-[5px] bg-[#967e48] w-full text-center py-2 mt-5 font-semibold" type="submit">Next</button>
+        <p className="font-semibold mt-3">Or</p>
+        <div className="flex flex-col gap-2 mt-3">
+            <div className="flex bg-white/20 p-1 sm:p-2 rounded-[5px] items-center cursor-pointer">
+                <p className="border border-white w-5 h-5 sm:h-8 sm:w-8 rounded-[3px] sm:rounded-[5px] text-[15px] sm:text-[20px]">in</p>
+                <p className="flex-1 text-center">Continue with Linkedin</p>
+            </div>
+            <div className="flex bg-white/20 p-1 sm:p-2 rounded-[5px] items-center cursor-pointer">
+                <p className="border border-white w-5 h-5 sm:h-8 sm:w-8 rounded-[3px] sm:rounded-[5px] text-[15px] sm:text-[20px]">G</p>
+                <p className="flex-1 text-center">Continue with Google</p>
+            </div>
+            <div className="flex bg-white/20 p-1 sm:p-2 rounded-[5px] items-center cursor-pointer">
+                <p className="border border-white w-5 h-5 sm:h-8 sm:w-8 rounded-[3px] sm:rounded-[5px] text-[15px] sm:text-[20px]">f</p>
+                <p className="flex-1 text-center">Continue with Facebook</p>
+            </div>
+            <div className="flex bg-white/20 p-1 sm:p-2 rounded-[5px] items-center cursor-pointer">
+                <p className="border border-white w-5 h-5 sm:h-8 sm:w-8 rounded-[3px] sm:rounded-[5px] text-[15px] sm:text-[20px]">t</p>
+                <p className="flex-1 text-center ">Continue with Twitter</p>
+            </div>
+            <a href="" className="font-semibold text-[#c49019] mt-5 sm:mt-10 underline">Setup a new account</a>
         </div>
       </div>
     </div>
